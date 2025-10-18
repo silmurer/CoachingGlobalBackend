@@ -5,6 +5,13 @@ import dto.AuthorDto;
 
 public class AuthorMapper {
     public static AuthorDto toDto(Author e) {
-        return new AuthorDto(e.id, e.descr, e.profession);
+        return new AuthorDto(
+                e.id,
+                e.descr,
+                e.profession,
+                e.appUser != null
+                        ? AppUserMapper.toDto(e.appUser)
+                        : null
+        );
     }
 }

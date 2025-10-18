@@ -12,4 +12,7 @@ public class Author extends PanacheEntity {
 
     @Column(nullable = false)
     public String profession;
+
+    @ManyToOne
+    public AppUser appUser;
 }
