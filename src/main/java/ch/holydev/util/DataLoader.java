@@ -18,26 +18,26 @@ public class DataLoader {
 
         // Create root subjects
         Subject ichMitGott = new Subject();
-        ichMitGott.name = "Ich mit Gott";
+        ichMitGott.title = "Ich mit Gott";
         ichMitGott.description = "Relationship with God";
         ichMitGott.persist();
 
         Subject ichMitMir = new Subject();
-        ichMitMir.name = "Ich mit mir";
+        ichMitMir.title = "Ich mit mir";
         ichMitMir.description = "Self-awareness";
         ichMitMir.persist();
 
-        // Create child subjects
-        Subject bibel = new Subject();
-        bibel.name = "Bibel lesen";
-        bibel.parent = ichMitGott;
-        bibel.persist();
-
-        Subject beten = new Subject();
-        beten.name = "Beten";
-        beten.parent = ichMitGott;
-        beten.persist();
-
+//        // Create child subjects
+//        Subject bibel = new Subject();
+//        bibel.title = "Bibel lesen";
+//        bibel. = ichMitGott;
+//        bibel.persist();
+//
+//        Subject beten = new Subject();
+//        beten.name = "Beten";
+//        beten.parent = ichMitGott;
+//        beten.persist();
+//
         System.out.println("✅ Initial data loaded successfully!");
     }
 }
