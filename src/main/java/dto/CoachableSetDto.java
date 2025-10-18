@@ -3,16 +3,16 @@ package dto;
 import java.util.List;
 
 public class CoachableSetDto {
-    public Integer id;
+    public Long id;
     public String title;
     public String description;
-    public List<Integer> nuggets;
-    public Integer author;
+    public List<Long> nuggets;
+    public Long author;
 
     public CoachableSetDto() {}
 
-    public CoachableSetDto(Integer id, String title, String description,
-                           List<Integer> nuggets, Integer author) {
+    public CoachableSetDto(Long id, String title, String description,
+                           List<Long> nuggets, Long author) {
         this.id = id;
         this.title = title;
         this.description = description;

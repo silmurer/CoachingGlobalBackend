@@ -1,14 +1,14 @@
 package dto;
 
 public class AuthorDto {
-    public Integer user;
+    public Long id;
     public String descr;
     public String profession;
 
     public AuthorDto() {}
 
-    public AuthorDto(Integer user, String descr, String profession) {
-        this.user = user;
+    public AuthorDto(Long id, String descr, String profession) {
+        this.id = id;
         this.descr = descr;
         this.profession = profession;
     }

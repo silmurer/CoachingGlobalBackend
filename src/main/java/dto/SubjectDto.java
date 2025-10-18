@@ -3,16 +3,16 @@ package dto;
 import java.util.List;
 
 public class SubjectDto {
-    public Integer id;
+    public Long id;
     public String title;
     public String description;
-    public List<Integer> subjects;
-    public List<Integer> coachableSets;
+    public List<Long> subjects;
+    public List<Long> coachableSets;
 
     public SubjectDto() {}
 
-    public SubjectDto(Integer id, String title, String description,
-                      List<Integer> subjects, List<Integer> coachableSets) {
+    public SubjectDto(Long id, String title, String description,
+                      List<Long> subjects, List<Long> coachableSets) {
         this.id = id;
         this.title = title;
         this.description = description;

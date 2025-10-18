@@ -1,6 +1,6 @@
 package ch.holydev.model;
 
-import io.quarkus.hibernate.orm.panache.PanacheEntityBase;
+import io.quarkus.hibernate.orm.panache.PanacheEntity;
 import jakarta.persistence.*;
 
 import java.util.ArrayList;
@@ -8,12 +8,7 @@ import java.util.List;
 
 @Entity
 @Table(name = "coachable_set")
-public class CoachableSet extends PanacheEntityBase {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "coachable_set_id")
-    public Integer id;
+public class CoachableSet extends PanacheEntity {
 
     @Column(nullable = false)
     public String title;

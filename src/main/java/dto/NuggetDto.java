@@ -1,16 +1,16 @@
 package dto;
 
 public class NuggetDto {
-    public int id;
+    public Long id;
     public String title;
     public String youtubeUrl;
     public String description;
-    public Integer author;
+    public Long author;
 
     public NuggetDto() {}
 
-    public NuggetDto(int id, String title, String youtubeUrl,
-                     String description, Integer author) {
+    public NuggetDto(Long id, String title, String youtubeUrl,
+                     String description, Long author) {
         this.id = id;
         this.title = title;
         this.youtubeUrl = youtubeUrl;

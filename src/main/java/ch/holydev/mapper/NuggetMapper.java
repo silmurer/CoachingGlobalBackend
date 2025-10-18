@@ -1,4 +1,4 @@
-package ch.holydev.util;
+package ch.holydev.mapper;
 
 import ch.holydev.model.Nugget;
 import dto.NuggetDto;

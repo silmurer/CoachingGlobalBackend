@@ -1,16 +1,11 @@
 package ch.holydev.model;
 
-import io.quarkus.hibernate.orm.panache.PanacheEntityBase;
+import io.quarkus.hibernate.orm.panache.PanacheEntity;
 import jakarta.persistence.*;
 
 @Entity
 @Table(name = "author")
-public class Author extends PanacheEntityBase {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "author_id")
-    public Integer id;
+public class Author extends PanacheEntity {
 
     @Column(columnDefinition = "TEXT")
     public String descr;

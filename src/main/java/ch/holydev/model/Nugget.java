@@ -1,15 +1,11 @@
 package ch.holydev.model;
 
-import io.quarkus.hibernate.orm.panache.PanacheEntityBase;
+import io.quarkus.hibernate.orm.panache.PanacheEntity;
 import jakarta.persistence.*;
 
 @Entity
 @Table(name = "nugget")
-public class Nugget extends PanacheEntityBase {
-
-    @Id
-    @Column(name = "nugget_id", length = 100)
-    public int id;
+public class Nugget extends PanacheEntity {
 
     @Column(nullable = false)
     public String title;
