@@ -54,33 +54,32 @@ INSERT INTO coachable_set (id, title, description, author_id) VALUES
   (4, 'Zeugnis im Beruf', 'Impulse und Übungen, um im Arbeitsumfeld glaubwürdig von Christus zu erzählen und christliche Werte zu leben.', 1),
   (5, 'Gaben entdecken und einsetzen', 'Entwicklung und praktische Anwendung geistlicher Gaben im Dienst der Gemeinde und im persönlichen Umfeld.', 2);
 
-
--- Nuggets mit deutschem, christlichem Fokus und Einheitlichem YouTube-Link
+-- Nuggets mit deutschem, christlichem Fokus und einheitlichem YouTube-Link-Code
 INSERT INTO nugget (id, title, youtube_url, description, author_id) VALUES
   -- Grundlagen der Jüngerschaft
-  (1, 'Was bedeutet Nachfolge?', 'https://www.youtube.com/watch?v=b5t5efGBTps&t=452s', 'Grundlegende biblische Perspektiven zur Jüngerschaft und persönlichen Berufung in Christus.', 1),
-  (2, 'Tägliche Stille Zeit gestalten', 'https://www.youtube.com/watch?v=b5t5efGBTps&t=452s', 'Praktische Anleitung für regelmäßiges Gebet und Bibelstudium im Alltag.', 1),
-  (3, 'Geistliche Disziplinen einüben', 'https://www.youtube.com/watch?v=b5t5efGBTps&t=452s', 'Fasten, Meditation und weitere klassische Übungen zur Vertiefung des Glaubens.', 3),
+  (1, 'Was bedeutet Nachfolge?', 'b5t5efGBTps', 'Grundlegende biblische Perspektiven zur Jüngerschaft und persönlichen Berufung in Christus.', 1),
+  (2, 'Tägliche Stille Zeit gestalten', 'b5t5efGBTps', 'Praktische Anleitung für regelmäßiges Gebet und Bibelstudium im Alltag.', 1),
+  (3, 'Geistliche Disziplinen einüben', 'b5t5efGBTps', 'Fasten, Meditation und weitere klassische Übungen zur Vertiefung des Glaubens.', 3),
 
   -- Gebetsleben vertiefen
-  (4, 'Verschiedene Gebetsformen entdecken', 'https://www.youtube.com/watch?v=b5t5efGBTps&t=452s', 'Fürbitte, Anbetung, Klage und Dank – vielfältige Wege der Kommunikation mit Gott.', 1),
-  (5, 'Gebetserhörungen erkennen', 'https://www.youtube.com/watch?v=b5t5efGBTps&t=452s', 'Sensibilität für Gottes Wirken und Antworten im persönlichen Gebetsleben entwickeln.', 3),
-  (6, 'Gemeinsam beten lernen', 'https://www.youtube.com/watch?v=b5t5efGBTps&t=452s', 'Praktische Tipps für Gebetsgemeinschaft in Kleingruppen und Partnerschaften.', 1),
+  (4, 'Verschiedene Gebetsformen entdecken', 'b5t5efGBTps', 'Fürbitte, Anbetung, Klage und Dank – vielfältige Wege der Kommunikation mit Gott.', 1),
+  (5, 'Gebetserhörungen erkennen', 'b5t5efGBTps', 'Sensibilität für Gottes Wirken und Antworten im persönlichen Gebetsleben entwickeln.', 3),
+  (6, 'Gemeinsam beten lernen', 'b5t5efGBTps', 'Praktische Tipps für Gebetsgemeinschaft in Kleingruppen und Partnerschaften.', 1),
 
   -- Gemeinschaft im Alltag
-  (7, 'Hauskreis gründen und leiten', 'https://www.youtube.com/watch?v=b5t5efGBTps&t=452s', 'Schritte zur Bildung einer lebendigen Kleingruppe mit Bibelstudium und Gemeinschaft.', 2),
-  (8, 'Konflikte christlich lösen', 'https://www.youtube.com/watch?v=b5t5efGBTps&t=452s', 'Biblische Prinzipien für wertschätzende Konfliktbearbeitung und Versöhnung.', 2),
-  (9, 'Gastfreundschaft praktizieren', 'https://www.youtube.com/watch?v=b5t5efGBTps&t=452s', 'Die geistliche Gabe der Gastfreundschaft als Dienst und Zeugnis leben.', 3),
+  (7, 'Hauskreis gründen und leiten', 'b5t5efGBTps', 'Schritte zur Bildung einer lebendigen Kleingruppe mit Bibelstudium und Gemeinschaft.', 2),
+  (8, 'Konflikte christlich lösen', 'b5t5efGBTps', 'Biblische Prinzipien für wertschätzende Konfliktbearbeitung und Versöhnung.', 2),
+  (9, 'Gastfreundschaft praktizieren', 'b5t5efGBTps', 'Die geistliche Gabe der Gastfreundschaft als Dienst und Zeugnis leben.', 3),
 
   -- Zeugnis im Beruf
-  (10, 'Christliche Werte im Arbeitsplatz', 'https://www.youtube.com/watch?v=b5t5efGBTps&t=452s', 'Integrität, Ehrlichkeit und Nächstenliebe konkret im Berufsleben umsetzen.', 5),
-  (11, 'Evangelisation ohne Worte', 'https://www.youtube.com/watch?v=b5t5efGBTps&t=452s', 'Durch authentisches Leben und dienende Haltung ein glaubwürdiges Zeugnis geben.', 4),
-  (12, 'Beruf als Berufung verstehen', 'https://www.youtube.com/watch?v=b5t5efGBTps&t=452s', 'Theologische Reflexion über Arbeit als Teilhabe an Gottes Schöpfungsauftrag.', 5),
+  (10, 'Christliche Werte im Arbeitsplatz', 'b5t5efGBTps', 'Integrität, Ehrlichkeit und Nächstenliebe konkret im Berufsleben umsetzen.', 5),
+  (11, 'Evangelisation ohne Worte', 'b5t5efGBTps', 'Durch authentisches Leben und dienende Haltung ein glaubwürdiges Zeugnis geben.', 4),
+  (12, 'Beruf als Berufung verstehen', 'b5t5efGBTps', 'Theologische Reflexion über Arbeit als Teilhabe an Gottes Schöpfungsauftrag.', 5),
 
   -- Gaben entdecken und einsetzen
-  (13, 'Geistliche Gaben identifizieren', 'https://www.youtube.com/watch?v=b5t5efGBTps&t=452s', 'Biblische Grundlagen und praktische Tests zur Entdeckung persönlicher Begabungen.', 4),
-  (14, 'Dienst in der Gemeinde finden', 'https://www.youtube.com/watch?v=b5t5efGBTps&t=452s', 'Wege zur sinnvollen Integration der eigenen Gaben in das Gemeindeleben.', 4),
-  (15, 'Gaben zur Ehre Gottes einsetzen', 'https://www.youtube.com/watch?v=b5t5efGBTps&t=452s', 'Motivation und praktische Hinweise für den selbstlosen Einsatz der eigenen Fähigkeiten.', 3);
+  (13, 'Geistliche Gaben identifizieren', 'b5t5efGBTps', 'Biblische Grundlagen und praktische Tests zur Entdeckung persönlicher Begabungen.', 4),
+  (14, 'Dienst in der Gemeinde finden', 'b5t5efGBTps', 'Wege zur sinnvollen Integration der eigenen Gaben in das Gemeindeleben.', 4),
+  (15, 'Gaben zur Ehre Gottes einsetzen', 'b5t5efGBTps', 'Motivation und praktische Hinweise für den selbstlosen Einsatz der eigenen Fähigkeiten.', 3);
 
 INSERT INTO coachable_set_nugget (coachable_set_id, nugget_id) VALUES
   -- Grundlagen der Jüngerschaft
